@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/avatar.png" type="image/svg+xml" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quem é BricioDev</title>
+    <link rel="stylesheet" href="homestyle.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="nav">
+        <img src="./assets/logo.svg" alt="logo BricioDev" />
+        <a
+          href="#"
+          onclick="if (document.referrer !== '') { history.back(); } else { window.location.href = './index.html'; } return false;"
+        >
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </a>
+      </div>
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de Fabrício sorrindo, usando óculos e camisa branca."
+        />
+        <p>@fga.thaynathayanne</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <div id="bio">
+        <h2>Quem é Thayná Thayanne?</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellendus porro molestiae eaque tenetur? Totam sequi quaerat sint quis blanditiis enim neque earum cumque ipsum, sapiente quibusdam dolore. Quam, reiciendis?
+        </p>
+        <br />
+        <h4>Who's Thayná Thayanne?</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dolores laboriosam molestiae unde numquam quae modi, aliquam totam vel commodi tenetur fugit ea, quis iusto esse blanditiis delectus! Illo, quisquam?
+        </p>
+      </div>
+
+      <div id="social-links">
+        <a href="https://www.instagram.com/fga.thaynathayanne/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </div>
+
+      <div id="author">
+        Feito por&nbsp;
+        <a href="https://briciodev.vercel.app/" target="_blank">BricioDev</a>
+        <ion-icon id="author-icon" name="ribbon-outline"></ion-icon>
+      </div>
+
+      <footer>© 2025 BricioDev™. Todos os direitos reservados.</footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
