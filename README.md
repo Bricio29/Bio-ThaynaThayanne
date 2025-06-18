@@ -13,7 +13,7 @@ Este projeto é uma **landing page pessoal** desenvolvida por [@briciodev](https
 <br>
 
 <p align="center">
-  <img alt="Projeto Bio BricioDev" src=".github/preview.png" width="100%">
+  <img alt="Projeto Bio BricioDev" src="./assets/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
